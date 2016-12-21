@@ -16,8 +16,14 @@ class MenuViewController: UIViewController,UITableViewDataSource,UITableViewDele
         super.viewDidLoad()
         self.menuTableView.dataSource = self
         self.menuTableView.delegate = self
-        self.view.backgroundColor = UIColor.black
+        self.registerTableCells()
+        self.menuTableView.backgroundColor = UIColor.clear
+        //self.view.backgroundColor = UIColor.black
         // Do any additional setup after loading the view.
+    }
+    
+    func registerTableCells(){
+        self.menuTableView.register(UINib.init(nibName: "MenuHeaderTableViewCell", bundle: nil), forCellReuseIdentifier: "MenuHeaderTableViewCell")
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -25,6 +31,10 @@ class MenuViewController: UIViewController,UITableViewDataSource,UITableViewDele
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        if indexPath.row == 0 {
+            let headerCell : MenuHeaderTableViewCell = self.menuTableView.dequeueReusableCell(withIdentifier: "MenuHeaderTableViewCell", for: indexPath) as! MenuHeaderTableViewCell
+            return headerCell
+        }
         return UITableViewCell()
     }
 

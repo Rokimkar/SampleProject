@@ -18,6 +18,22 @@
 		9E2F90FF1E09ACC300C15CD0 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E2F90FE1E09ACC300C15CD0 /* SWRevealViewController.m */; };
 		9E2F91011E09B28600C15CD0 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E2F91001E09B28600C15CD0 /* MenuViewController.swift */; };
 		9E2F91031E09B62100C15CD0 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E2F91021E09B62100C15CD0 /* HomeViewController.swift */; };
+		9E9342F21E0A90330009815C /* MenuHeaderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E9342F01E0A90330009815C /* MenuHeaderTableViewCell.swift */; };
+		9E9342F31E0A90330009815C /* MenuHeaderTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9E9342F11E0A90330009815C /* MenuHeaderTableViewCell.xib */; };
+		9E9343011E0A91A90009815C /* Helvetica Neu Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9E9342F61E0A91A90009815C /* Helvetica Neu Bold.ttf */; };
+		9E9343021E0A91A90009815C /* HelveticaNeue BlackCond.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9E9342F71E0A91A90009815C /* HelveticaNeue BlackCond.ttf */; };
+		9E9343031E0A91A90009815C /* HelveticaNeue Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9E9342F81E0A91A90009815C /* HelveticaNeue Light.ttf */; };
+		9E9343041E0A91A90009815C /* HelveticaNeue Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9E9342F91E0A91A90009815C /* HelveticaNeue Medium.ttf */; };
+		9E9343051E0A91A90009815C /* HelveticaNeue Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9E9342FA1E0A91A90009815C /* HelveticaNeue Thin.ttf */; };
+		9E9343061E0A91A90009815C /* HelveticaNeue.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9E9342FB1E0A91A90009815C /* HelveticaNeue.ttf */; };
+		9E9343071E0A91A90009815C /* HelveticaNeueBd.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9E9342FC1E0A91A90009815C /* HelveticaNeueBd.ttf */; };
+		9E9343081E0A91A90009815C /* HelveticaNeueHv.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9E9342FD1E0A91A90009815C /* HelveticaNeueHv.ttf */; };
+		9E9343091E0A91A90009815C /* HelveticaNeueIt.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9E9342FE1E0A91A90009815C /* HelveticaNeueIt.ttf */; };
+		9E93430A1E0A91A90009815C /* HelveticaNeueLt.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9E9342FF1E0A91A90009815C /* HelveticaNeueLt.ttf */; };
+		9E93430B1E0A91A90009815C /* HelveticaNeueMed.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9E9343001E0A91A90009815C /* HelveticaNeueMed.ttf */; };
+		9E93430D1E0AB2150009815C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E93430C1E0AB2150009815C /* Images.xcassets */; };
+		9E9343101E0ABA380009815C /* MenuTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E93430E1E0ABA380009815C /* MenuTableViewCell.swift */; };
+		9E9343111E0ABA380009815C /* MenuTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9E93430F1E0ABA380009815C /* MenuTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +73,22 @@
 		9E2F90FE1E09ACC300C15CD0 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
 		9E2F91001E09B28600C15CD0 /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
 		9E2F91021E09B62100C15CD0 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		9E9342F01E0A90330009815C /* MenuHeaderTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuHeaderTableViewCell.swift; sourceTree = "<group>"; };
+		9E9342F11E0A90330009815C /* MenuHeaderTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MenuHeaderTableViewCell.xib; sourceTree = "<group>"; };
+		9E9342F61E0A91A90009815C /* Helvetica Neu Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Helvetica Neu Bold.ttf"; sourceTree = "<group>"; };
+		9E9342F71E0A91A90009815C /* HelveticaNeue BlackCond.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "HelveticaNeue BlackCond.ttf"; sourceTree = "<group>"; };
+		9E9342F81E0A91A90009815C /* HelveticaNeue Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "HelveticaNeue Light.ttf"; sourceTree = "<group>"; };
+		9E9342F91E0A91A90009815C /* HelveticaNeue Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "HelveticaNeue Medium.ttf"; sourceTree = "<group>"; };
+		9E9342FA1E0A91A90009815C /* HelveticaNeue Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "HelveticaNeue Thin.ttf"; sourceTree = "<group>"; };
+		9E9342FB1E0A91A90009815C /* HelveticaNeue.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = HelveticaNeue.ttf; sourceTree = "<group>"; };
+		9E9342FC1E0A91A90009815C /* HelveticaNeueBd.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = HelveticaNeueBd.ttf; sourceTree = "<group>"; };
+		9E9342FD1E0A91A90009815C /* HelveticaNeueHv.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = HelveticaNeueHv.ttf; sourceTree = "<group>"; };
+		9E9342FE1E0A91A90009815C /* HelveticaNeueIt.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = HelveticaNeueIt.ttf; sourceTree = "<group>"; };
+		9E9342FF1E0A91A90009815C /* HelveticaNeueLt.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = HelveticaNeueLt.ttf; sourceTree = "<group>"; };
+		9E9343001E0A91A90009815C /* HelveticaNeueMed.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = HelveticaNeueMed.ttf; sourceTree = "<group>"; };
+		9E93430C1E0AB2150009815C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = ../Images.xcassets; sourceTree = "<group>"; };
+		9E93430E1E0ABA380009815C /* MenuTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuTableViewCell.swift; sourceTree = "<group>"; };
+		9E93430F1E0ABA380009815C /* MenuTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MenuTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +139,8 @@
 		9E2F90C91E098A0F00C15CD0 /* IASTips */ = {
 			isa = PBXGroup;
 			children = (
+				9E9342F41E0A90460009815C /* TableCells */,
+				9E9342F51E0A918C0009815C /* Fonts */,
 				9E2F90FB1E09AC7E00C15CD0 /* SWRevealViewController */,
 				9E2F90CA1E098A0F00C15CD0 /* AppDelegate.swift */,
 				9E2F90CC1E098A0F00C15CD0 /* ViewController.swift */,
@@ -115,6 +149,7 @@
 				9E2F90FC1E09ACC200C15CD0 /* IASTips-Bridging-Header.h */,
 				9E2F90CE1E098A0F00C15CD0 /* Main.storyboard */,
 				9E2F90D41E098A0F00C15CD0 /* Assets.xcassets */,
+				9E93430C1E0AB2150009815C /* Images.xcassets */,
 				9E2F90D61E098A0F00C15CD0 /* LaunchScreen.storyboard */,
 				9E2F90D91E098A0F00C15CD0 /* Info.plist */,
 				9E2F90D11E098A0F00C15CD0 /* IASTips.xcdatamodeld */,
@@ -147,6 +182,35 @@
 				9E2F90FE1E09ACC300C15CD0 /* SWRevealViewController.m */,
 			);
 			name = SWRevealViewController;
+			sourceTree = "<group>";
+		};
+		9E9342F41E0A90460009815C /* TableCells */ = {
+			isa = PBXGroup;
+			children = (
+				9E9342F01E0A90330009815C /* MenuHeaderTableViewCell.swift */,
+				9E9342F11E0A90330009815C /* MenuHeaderTableViewCell.xib */,
+				9E93430E1E0ABA380009815C /* MenuTableViewCell.swift */,
+				9E93430F1E0ABA380009815C /* MenuTableViewCell.xib */,
+			);
+			name = TableCells;
+			sourceTree = "<group>";
+		};
+		9E9342F51E0A918C0009815C /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				9E9342F61E0A91A90009815C /* Helvetica Neu Bold.ttf */,
+				9E9342F71E0A91A90009815C /* HelveticaNeue BlackCond.ttf */,
+				9E9342F81E0A91A90009815C /* HelveticaNeue Light.ttf */,
+				9E9342F91E0A91A90009815C /* HelveticaNeue Medium.ttf */,
+				9E9342FA1E0A91A90009815C /* HelveticaNeue Thin.ttf */,
+				9E9342FB1E0A91A90009815C /* HelveticaNeue.ttf */,
+				9E9342FC1E0A91A90009815C /* HelveticaNeueBd.ttf */,
+				9E9342FD1E0A91A90009815C /* HelveticaNeueHv.ttf */,
+				9E9342FE1E0A91A90009815C /* HelveticaNeueIt.ttf */,
+				9E9342FF1E0A91A90009815C /* HelveticaNeueLt.ttf */,
+				9E9343001E0A91A90009815C /* HelveticaNeueMed.ttf */,
+			);
+			name = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,9 +321,23 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9E93430B1E0A91A90009815C /* HelveticaNeueMed.ttf in Resources */,
+				9E9343071E0A91A90009815C /* HelveticaNeueBd.ttf in Resources */,
+				9E93430A1E0A91A90009815C /* HelveticaNeueLt.ttf in Resources */,
+				9E9343051E0A91A90009815C /* HelveticaNeue Thin.ttf in Resources */,
+				9E9343061E0A91A90009815C /* HelveticaNeue.ttf in Resources */,
+				9E9343081E0A91A90009815C /* HelveticaNeueHv.ttf in Resources */,
+				9E9343021E0A91A90009815C /* HelveticaNeue BlackCond.ttf in Resources */,
+				9E9343091E0A91A90009815C /* HelveticaNeueIt.ttf in Resources */,
 				9E2F90D81E098A0F00C15CD0 /* LaunchScreen.storyboard in Resources */,
+				9E9343031E0A91A90009815C /* HelveticaNeue Light.ttf in Resources */,
+				9E93430D1E0AB2150009815C /* Images.xcassets in Resources */,
+				9E9342F31E0A90330009815C /* MenuHeaderTableViewCell.xib in Resources */,
+				9E9343011E0A91A90009815C /* Helvetica Neu Bold.ttf in Resources */,
 				9E2F90D51E098A0F00C15CD0 /* Assets.xcassets in Resources */,
+				9E9343111E0ABA380009815C /* MenuTableViewCell.xib in Resources */,
 				9E2F90D01E098A0F00C15CD0 /* Main.storyboard in Resources */,
+				9E9343041E0A91A90009815C /* HelveticaNeue Medium.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,6 +364,8 @@
 			files = (
 				9E2F90CD1E098A0F00C15CD0 /* ViewController.swift in Sources */,
 				9E2F91011E09B28600C15CD0 /* MenuViewController.swift in Sources */,
+				9E9343101E0ABA380009815C /* MenuTableViewCell.swift in Sources */,
+				9E9342F21E0A90330009815C /* MenuHeaderTableViewCell.swift in Sources */,
 				9E2F90D31E098A0F00C15CD0 /* IASTips.xcdatamodeld in Sources */,
 				9E2F90CB1E098A0F00C15CD0 /* AppDelegate.swift in Sources */,
 				9E2F90FF1E09ACC300C15CD0 /* SWRevealViewController.m in Sources */,

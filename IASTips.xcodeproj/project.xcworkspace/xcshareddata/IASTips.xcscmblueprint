@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "B05385DA6B3ECCE1E0172D31AD641469ED474E3E",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "B05385DA6B3ECCE1E0172D31AD641469ED474E3E" : 9223372036854775807,
+    "14368314E050E45430786429A4028444F81CF2F4" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "D5A8E6F5-32C0-441A-A856-8971BAE7EC74",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "B05385DA6B3ECCE1E0172D31AD641469ED474E3E" : "IASTips\/",
+    "14368314E050E45430786429A4028444F81CF2F4" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "IASTips",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "IASTips.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/Rokimkar\/ArchiverSwift.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "14368314E050E45430786429A4028444F81CF2F4"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/Rokimkar\/SampleProject.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "B05385DA6B3ECCE1E0172D31AD641469ED474E3E"
+    }
+  ]
+}
