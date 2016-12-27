@@ -34,6 +34,8 @@
 		9E93430D1E0AB2150009815C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E93430C1E0AB2150009815C /* Images.xcassets */; };
 		9E9343101E0ABA380009815C /* MenuTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E93430E1E0ABA380009815C /* MenuTableViewCell.swift */; };
 		9E9343111E0ABA380009815C /* MenuTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9E93430F1E0ABA380009815C /* MenuTableViewCell.xib */; };
+		9EB1048D1E12EDE1004F69D0 /* SyllabusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EB1048B1E12EDE1004F69D0 /* SyllabusViewController.swift */; };
+		9EB1048E1E12EDE1004F69D0 /* SyllabusViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9EB1048C1E12EDE1004F69D0 /* SyllabusViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -89,6 +91,8 @@
 		9E93430C1E0AB2150009815C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = ../Images.xcassets; sourceTree = "<group>"; };
 		9E93430E1E0ABA380009815C /* MenuTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuTableViewCell.swift; sourceTree = "<group>"; };
 		9E93430F1E0ABA380009815C /* MenuTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MenuTableViewCell.xib; sourceTree = "<group>"; };
+		9EB1048B1E12EDE1004F69D0 /* SyllabusViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SyllabusViewController.swift; sourceTree = "<group>"; };
+		9EB1048C1E12EDE1004F69D0 /* SyllabusViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SyllabusViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,6 +143,7 @@
 		9E2F90C91E098A0F00C15CD0 /* IASTips */ = {
 			isa = PBXGroup;
 			children = (
+				9EB1048F1E12EDFA004F69D0 /* Syllabus */,
 				9E9342F41E0A90460009815C /* TableCells */,
 				9E9342F51E0A918C0009815C /* Fonts */,
 				9E2F90FB1E09AC7E00C15CD0 /* SWRevealViewController */,
@@ -211,6 +216,16 @@
 				9E9343001E0A91A90009815C /* HelveticaNeueMed.ttf */,
 			);
 			name = Fonts;
+			sourceTree = "<group>";
+		};
+		9EB1048F1E12EDFA004F69D0 /* Syllabus */ = {
+			isa = PBXGroup;
+			children = (
+				9EB1048B1E12EDE1004F69D0 /* SyllabusViewController.swift */,
+				9EB1048C1E12EDE1004F69D0 /* SyllabusViewController.xib */,
+			);
+			name = Syllabus;
+			path = ..;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -322,6 +337,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9E93430B1E0A91A90009815C /* HelveticaNeueMed.ttf in Resources */,
+				9EB1048E1E12EDE1004F69D0 /* SyllabusViewController.xib in Resources */,
 				9E9343071E0A91A90009815C /* HelveticaNeueBd.ttf in Resources */,
 				9E93430A1E0A91A90009815C /* HelveticaNeueLt.ttf in Resources */,
 				9E9343051E0A91A90009815C /* HelveticaNeue Thin.ttf in Resources */,
@@ -367,6 +383,7 @@
 				9E9343101E0ABA380009815C /* MenuTableViewCell.swift in Sources */,
 				9E9342F21E0A90330009815C /* MenuHeaderTableViewCell.swift in Sources */,
 				9E2F90D31E098A0F00C15CD0 /* IASTips.xcdatamodeld in Sources */,
+				9EB1048D1E12EDE1004F69D0 /* SyllabusViewController.swift in Sources */,
 				9E2F90CB1E098A0F00C15CD0 /* AppDelegate.swift in Sources */,
 				9E2F90FF1E09ACC300C15CD0 /* SWRevealViewController.m in Sources */,
 				9E2F91031E09B62100C15CD0 /* HomeViewController.swift in Sources */,
